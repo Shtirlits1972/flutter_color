@@ -26,16 +26,27 @@ class MyApp extends StatelessWidget {
               child: Container(
                   color: Colors.blue,
                 child: Center(
-                  child: Card(
+                  child: Column
+                (mainAxisAlignment: 
+                MainAxisAlignment.center,
+                  
+                  children: [                   Card(
                     child: Container(
                       height: 100,
                       color: Colors.purple,
                       )
                     ),
+                                      Card(
+                    child: Container(
+                      height: 100,
+                      color: Colors.purple,
+                      )
+                    ),],),
+
                   ),
                 ),
               ),
-            ),
+         //   ),
             Expanded(flex: 1,
               child: Container(
                   color: Colors.yellow
